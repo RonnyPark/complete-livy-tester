@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="complete-livy-tester" />
+        <module name="livy-job" />
+        <module name="livy-launcher" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="complete-livy-tester" target="1.8" />
+      <module name="livy-job" target="1.8" />
+      <module name="livy-launcher" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

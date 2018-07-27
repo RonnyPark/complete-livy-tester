@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/complete-livy-tester.iml" filepath="$PROJECT_DIR$/complete-livy-tester.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livy-job/livy-job.iml" filepath="$PROJECT_DIR$/livy-job/livy-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livy-launcher/livy-launcher.iml" filepath="$PROJECT_DIR$/livy-launcher/livy-launcher.iml" />
+    </modules>
+  </component>
+</project>

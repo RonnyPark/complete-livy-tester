@@ -1,9 +1,13 @@
 livy-env.sh
+
 SPARK_HOME=/Users/ronny/Bistel/Test/SKH/spark-1.6.3-bin-hadoop2.3
+
 SPARK_CONF_DIR=${SPARK_HOME}/conf
 
 livy.conf
+
 livy.spark.master = spark://localhost:7077
+
 livy.file.local-dir-whitelist = /Users/ronny/Bistel/Test/SKH/complete-livy-tester/livy-job/target/
 
 ${LIVY_HOME}/rsc-jars

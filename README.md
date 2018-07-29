@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+livy-env.sh
+SPARK_HOME=/Users/ronny/Bistel/Test/SKH/spark-1.6.3-bin-hadoop2.3
+SPARK_CONF_DIR=${SPARK_HOME}/conf
 
-You can use the [editor on GitHub](https://github.com/RonnyPark/complete-livy-tester/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+livy.conf
+livy.spark.master = spark://localhost:7077
+livy.file.local-dir-whitelist = /Users/ronny/Bistel/Test/SKH/complete-livy-tester/livy-job/target/
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RonnyPark/complete-livy-tester/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+${LIVY_HOME}/rsc-jars
+-rw-r--r--@  1 ronny  staff    14163  1 25  2018 livy-api-0.5.0-incubating.jar
+-rw-r--r--   1 ronny  staff  3594859  7 27 18:23 livy-client-http-0.5.0-incubating.jar
+-rw-r--r--   1 ronny  staff     8890  7 27 21:56 livy-job-1.0-SNAPSHOT.jar
+-rw-r--r--@  1 ronny  staff   497227  1 25  2018 livy-rsc-0.5.0-incubating.jar
+-rw-r--r--@  1 ronny  staff  2204062  1 25  2018 netty-all-4.0.37.Final.jar
